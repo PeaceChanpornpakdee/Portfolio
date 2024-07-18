@@ -1,13 +1,13 @@
 import React from 'react';
 
-const About: React.FC = () => {
+const AboutPage: React.FC = () => {
   return (
-    <section id="about">
+    <div>
       <h1>About Me</h1>
       <div className="text-blue-300 text-2xl font-bold"> Nice to meet you</div>
       <p>This is the about section.</p>
-    </section>
+    </div>
   );
 };
 
-export default About;
+export default AboutPage;
